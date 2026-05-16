@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>StudentRankServlet</servlet-name>
+        <servlet-class>StudentRankServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StudentRankServlet</servlet-name>
+        <url-pattern>/rank</url-pattern>
+    </servlet-mapping>
+
+</web-app>
